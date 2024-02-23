@@ -1,0 +1,71 @@
+import React from "react";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+import Radio from '@mui/material/Radio';
+import Style from "../Header/Home/Home.module.css"
+const CategoryLeft = () => {
+  return (
+    <div className="col-12 bg-light">
+      <h3>Product Category</h3>
+      <div className={`d-flex flex-wrap justify-content-around text-light ${Style.SideBar}`} 
+      style={{ overflow: "scroll" }}>
+      <div
+      className={`col-lg-12 col-3 justify-content-between d-flex mx-1 m-2 mx-lg-0 rounded bg-white
+       border border-bottom  shadow-lg ${Style.Popular}`}
+    >
+      <div
+        className=" justify-content-lg-between align-items-center justify-content-center d-flex flex-wrap p-2 text-center rounded "
+        style={{ maxHeight: "100px" }}
+      >
+        {" "}
+        <div className="col-lg-5 col-10 h-75 ">
+          {" "}
+          <img src={img} className="w-100 h-100 rounded" />
+        </div>
+        <span className="col-lg-6 text-truncate " style={{ width: "5em" }}>
+          Laptop
+        </span>
+      </div>
+    </div>
+        <div className="col-10 p-2 my-2 col-10 rounded" style={{backgroundColor:"#072541"}}>
+          {" "}
+          <FormControlLabel
+            control={<Radio  />}
+            label="Oppo"
+          />
+        </div>
+        <div className="col-10 p-2 my-2 col-10 rounded" style={{backgroundColor:"#072541"}}>
+          {" "}
+          <FormControlLabel
+            control={<Radio  />}
+            label="Samsung"
+          />
+        </div>
+        <div className="col-10 p-2 my-2 col-10 rounded" style={{backgroundColor:"#072541"}}>
+          {" "}
+          <FormControlLabel
+            control={<Radio />}
+            label="Iphone"
+          />
+        </div>
+        <div className="col-10 p-2 my-2 col-10 rounded" style={{backgroundColor:"#072541"}}>
+          {" "}
+          <FormControlLabel
+            control={<Checkbox  />}
+            label="Huawei"
+          />
+        </div>
+        <div className="col-10 p-2 my-2 col-10 rounded" style={{backgroundColor:"#072541"}}>
+          {" "}
+          <FormControlLabel
+            control={<Checkbox  />}
+            label="Realme"
+          />
+        </div>
+      
+      </div>
+    </div>
+  );
+};
+
+export default CategoryLeft;
