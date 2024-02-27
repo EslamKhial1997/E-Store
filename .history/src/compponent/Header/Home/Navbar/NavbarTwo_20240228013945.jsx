@@ -14,7 +14,7 @@ const NavbarTwo = () => {
       className="navbar navbar-expand-lg navbar-light  text-light"
       style={{ backgroundColor: "#001933" }}
     >
-      <div className="container-fluid align-items-center ">
+      <div className="container-fluid  justify-content-between align-items-center ">
      
 
         <div
@@ -25,7 +25,7 @@ const NavbarTwo = () => {
            <Home fontSize="large" color="warning"/> TopStore
           </NavLink>
         </div>
-        <div className="d-flex col-lg-8 col-12 justify-content-between align-items-center">
+        <div className="d-flex col-lg-8 col-10 justify-content-between align-items-center">
           {" "}
           <div
             className=" d-flex align-items-center col-lg-6 col-18 mb-2 mb-lg-0 "

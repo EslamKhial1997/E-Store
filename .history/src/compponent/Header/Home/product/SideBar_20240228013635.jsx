@@ -5,10 +5,10 @@ import img from "../profile/laptop.png";
 import img2 from "../profile/trinix.png";
 const SideBar = () => {
   return (
-    <div className="col-12 text-start p-2 ">
+    <div className="col-12 text-start p-2 sticky-top">
       <strong>Most Populate</strong>
       <div
-        className={`${Style.SideBar}  d-flex d-lg-block d-md-flex d-sm-flex`}
+        className={`${Style.SideBar} d-flex d-lg-block d-md-flex d-sm-flex`}
         style={{ overflow: "scroll" }}
       >
         <div

@@ -7,7 +7,7 @@ import AirplanemodeActiveSharpIcon from '@mui/icons-material/AirplanemodeActiveS
 import ShowCase from "./ShowCase";
 const SectionRight = () => {
   return (
-    <div className="sticky-top">
+    <div>
     <div className="bg-light  rounded">
       <div className="d-flex align-items-center justify-content-around  rounded my-3" style={{ backgroundColor: "#072541" }}>
         <div className=" col-3">

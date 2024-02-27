@@ -11,7 +11,7 @@ import Populate from "./Populate";
 import Cloud from "./Cloud";
 const SectionLeft = () => {
   return (
-    <div className="sticky-top">
+    <div className="">
       <div className=" rounded bg-white">
         <div className="d-flex align-items-center">
           <Accordion>

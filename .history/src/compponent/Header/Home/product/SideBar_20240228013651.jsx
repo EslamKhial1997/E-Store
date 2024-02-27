@@ -8,7 +8,7 @@ const SideBar = () => {
     <div className="col-12 text-start p-2 ">
       <strong>Most Populate</strong>
       <div
-        className={`${Style.SideBar}  d-flex d-lg-block d-md-flex d-sm-flex`}
+        className={`${Style.SideBar} sticky-top d-flex d-lg-block d-md-flex d-sm-flex`}
         style={{ overflow: "scroll" }}
       >
         <div
