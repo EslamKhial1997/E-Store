@@ -1,0 +1,26 @@
+
+div{
+    background-color: #fff;
+    background-image: url(../img/carousel-1.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+
+    
+}
+
+
+
+div{
+    background: #fff url(../img/carousel-1.jpg) repeat-y fixed center;
+    margin:20px 10px ;
+    border: 1px solid #fff;
+}
